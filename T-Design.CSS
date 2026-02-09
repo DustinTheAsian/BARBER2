@@ -12,8 +12,7 @@
     }
 
     .Header{
-        padding-top: 30px;
-        padding-bottom: 20px;
+        padding-bottom: 40px;
     }
     /* Sidebar styles */
     .sidebar{
@@ -24,8 +23,22 @@
       padding: 20px;
       position: fixed;       /* Sidebar stays in place while scrolling */
       top: 80px;
-      box-shadow: 1px 1px 5px 5px black;
       left: 0;
+    }
+
+    .navbar{
+      position: fixed;
+      height: 80px;
+      width: 110%;
+      background-color: black;
+    }
+
+    .navbox{
+      display: flex;
+      height: 90%;
+      width: 90%;
+      align-items: center;
+      justify-content:flex-end;
     }
 
     .sidebar h2 {
