@@ -19,11 +19,12 @@
     .sidebar{
       width: 250px;          /* Fixed width */
       height: 100vh;         /* Full height of the viewport */
-      background-color: #333; /* Dark background */
+      background-color:black; /* Dark background */
       color: white;
       padding: 20px;
       position: fixed;       /* Sidebar stays in place while scrolling */
-      top: 0;
+      top: 80px;
+      box-shadow: 1px 1px 5px 5px black;
       left: 0;
     }
 
