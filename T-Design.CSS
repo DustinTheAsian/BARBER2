@@ -16,7 +16,7 @@
         padding-bottom: 20px;
     }
     /* Sidebar styles */
-    .sidebar {
+    .sidebar{
       width: 250px;          /* Fixed width */
       height: 100vh;         /* Full height of the viewport */
       background-color: #333; /* Dark background */
@@ -49,6 +49,10 @@
       border-radius: 4px;    /* Rounded corners on hover */
       transition: background 0.3s;
     }
+
+    .sidebar ul li a.sidebar-link {
+  color: white; /* Make text black */
+}
 
     .sidebar ul li a:hover {
       background-color: #555; /* Highlight on hover */
