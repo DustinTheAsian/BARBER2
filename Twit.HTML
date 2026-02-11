@@ -3,73 +3,94 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dark News Feed</title>
-  <link rel="stylesheet" href="T-Design.CSS">
+  <title>Sidebar with Icons</title>
+  <link rel="stylesheet" href="T-Design.css">
 </head>
 <body>
 
-  <!-- Sidebar -->
+  <!-- Sidebar container -->
   <div class="sidebar">
-    <h2>Menu</h2>
-    <ul>
-      <li><a href="#"><img src="home.png" class="icon" alt=""> Home</a></li>
-      <li><a href="#"><img src="about.png" class="icon" alt=""> About</a></li>
-      <li><a href="#"><img src="services.png" class="icon" alt=""> Services</a></li>
-      <li><a href="#"><img src="portfolio.png" class="icon" alt=""> Portfolio</a></li>
+
+    <!-- Sidebar heading or logo -->
+    <h2 class="Header">Menu</h2>
+
+    <!-- Navigation menu -->
+    <ul class="Box2">
+      <li>
+        <a href="#" class="sidebar-link">
+          <img src="" class="icon">
+          <span>Home</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="#" class="sidebar-link">
+          <img src="about.png" class="icon">
+          <span>About</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="#" class="sidebar-link">
+          <img src="services.png" class="icon">
+          <span>Services</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="#" class="sidebar-link">
+          <img src="portfolio.png" class="icon">
+          <span>Portfolio</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="#" class="sidebar-link">
+          <img src="contact.png" class="icon">
+          <span>Bookmark</span>
+        </a>
+      </li>
+
+       <li>
+        <a href="#" class="sidebar-link">
+          <img src="contact.png" class="icon">
+          <span>Creator Studio</span>
+        </a>
+      </li>
+
+       <li>
+        <a href="#" class="sidebar-link">
+          <img src="contact.png" class="icon">
+          <span>Premium</span>
+        </a>
+      </li>
+
+       <li>
+        <a href="#" class="sidebar-link">
+          <img src="contact.png" class="icon">
+          <span>Profile</span>
+        </a>
+      </li>
     </ul>
+
   </div>
 
-  <!-- Main feed -->
-  <div class="feed-container">
+  <div class="Box3">
+    <div class="Feed">
+      For You
+    </div>
+     <div class="Feed2">
+      Following
+    </div>
+  </div>
 
-    <!-- Status / Create post -->
-    <div class="status-bar">
-      <img src="xgKrELEH_400x400.jpg" alt="Profile" class="avatar">
-      <input type="text" placeholder="What's on your mind?" class="status-input">
-      <button>Post</button>
+  <div class="box-stat">
+    <div class="profbox">
+      <img src="xgKrELEH_400x400.jpg" class="diego"></div>
     </div>
 
-    <!-- Feed posts -->
-    <div class="posts">
-      <!-- Example post -->
-      <div class="post-card">
-        <div class="post-header">
-          <img src="xgKrELEH_400x400.jpg" alt="Profile" class="avatar">
-          <div class="post-user">
-            <span class="username">Diego</span>
-            <span class="time">2h ago</span>
-          </div>
-        </div>
-        <div class="post-body">
-          <p>This is a cool new post on my dark news feed layout!</p>
-          <img src="post-image.jpg" alt="" class="post-image">
-        </div>
-        <div class="post-footer">
-          <button>Like</button>
-          <button>Comment</button>
-          <button>Share</button>
-        </div>
-      </div>
-
-      <!-- Duplicate post -->
-      <div class="post-card">
-        <div class="post-header">
-          <img src="xgKrELEH_400x400.jpg" alt="Profile" class="avatar">
-          <div class="post-user">
-            <span class="username">Alice</span>
-            <span class="time">5h ago</span>
-          </div>
-        </div>
-        <div class="post-body">
-          <p>Check out this amazing dark theme layout!</p>
-        </div>
-        <div class="post-footer">
-          <button>Like</button>
-          <button>Comment</button>
-          <button>Share</button>
-        </div>
-      </div>
-
+    <div class="Status">
+      <input class="Thoughts" type="text" placeholder="What's on your mind?">
     </div>
   </div>
 
