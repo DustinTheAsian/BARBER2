@@ -138,8 +138,15 @@ body {
 .box-stat{
   position: absolute;
   height: 30%;
-  width: 50%;
-  top: 64px;
+  width: 44.9%;
+  top: 64.9px;
   left: 21.6%;
   background-color: white;
+}
+
+.profbox{
+  position: relative;
+  background-color: blue;
+  height: 99.2%;
+  width: 90px;
 }
