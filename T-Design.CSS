@@ -150,3 +150,12 @@ body {
   height: 99.2%;
   width: 90px;
 }
+
+.diego {
+  width: 50px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: auto;   /* 🔥 centers it */
+}
