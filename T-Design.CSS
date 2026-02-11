@@ -18,7 +18,7 @@ body {
 
 /* Sidebar styles */
 .sidebar {
-  border-right: solid rgb(255, 255, 255) 2px;
+  border-right:  solid rgb(83, 83, 83) 1px;
   width: 330px;
   height: 100vh;
   background-color: black;
@@ -61,7 +61,7 @@ body {
 /* Hover effect */
 .sidebar ul li a:hover {
  transition: 0.6s;
- box-shadow: 1px 1px 1px 2px white;
+ box-shadow: 1px 1px 1px 1px white;
 }
 
 /* Icon image */
@@ -87,7 +87,7 @@ body {
   height: 99.3%;
   width: 45%;
   left: 330px;
-  border-right: solid white 2px;
+  border-right:  solid rgb(83, 83, 83) 1px;
 }
 
 .Feed{
@@ -112,7 +112,8 @@ body {
   background-color: #000000;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(255, 255, 255);
-  border-bottom: solid white 2px;
+  border-bottom:solid rgb(83, 83, 83) 1px;
+
 
   /* Flexbox centering */
   display: flex;
@@ -126,9 +127,6 @@ body {
   margin: 0;
 }
 
-.Feed{
-  border-right: solid white 2px;
-}
 
 .Feed:hover, .Feed2:hover {
   transition: 0.4s;
@@ -136,25 +134,37 @@ body {
 }
 
 .box-stat{
-  position: absolute;
+  position: fixed;
   height: 15%;
   width: 44.9%;
   top: 64.9px;
   left: 21.6%;
-  background-color: white;
+  border-bottom: solid rgb(83, 83, 83) 2px;
 }
 
 .profbox{
   position: relative;
-  background-color: blue;
   height: 99.2%;
-  width: 90px;
+  width: 75px;
 }
 
 .box-stat .profbox .diego{
   height: 45px;
   width: 50px;
-  margin-top: 10px;
+  margin-top: 30px;
   margin-left: 17px;
   border-radius: 150px;
 }
+
+
+.Thoughts {
+  position: absolute;
+  color: white;
+  border: none;
+  font-size: large;
+  width: 35%;
+  height: 60.2px;
+  top: 11.2%;
+  left: 27%;
+}
+
