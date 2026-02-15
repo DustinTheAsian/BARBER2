@@ -163,7 +163,7 @@ body {
   color: white;
   border: none;
   font-size: large;
-  width: 34%;
+  width: 28%;
   height: 40px;
   padding-left: 10px;
   top: 12%;
@@ -224,4 +224,13 @@ border-radius: 15px;
 
 .Details img:hover {
   opacity: 1;
+}
+
+.Post{
+  position:absolute;
+  top: 177px;
+  left: 21.6%;
+  background-color: rgb(15, 14, 14);
+  height: 71%;
+  width: 44.7%;
 }
