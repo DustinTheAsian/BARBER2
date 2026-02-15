@@ -251,3 +251,12 @@ border-radius: 15px;
   margin-left: 12.5px;
   border-radius: 110px;
 }
+
+.Username{
+  position: absolute;
+  color: white;
+  font-size: large;
+  left: 90px;
+  width: 580px;
+  top: 15px;
+}
