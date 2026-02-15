@@ -240,5 +240,14 @@ border-radius: 15px;
   height: 99.2%;
   width: 75px;
   left: 15px;
-  background-color: white;
+  
+}
+
+.meme{
+  position: relative;
+  height: 45px;
+  width: 50px;
+  margin-top: 10px;
+  margin-left: 12.5px;
+  border-radius: 110px;
 }
