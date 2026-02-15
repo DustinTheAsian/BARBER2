@@ -256,7 +256,16 @@ border-radius: 15px;
   position: absolute;
   color: white;
   font-size: large;
-  left: 90px;
+  left: 75px;
   width: 580px;
   top: 15px;
+}
+
+.emaill{
+  position: absolute;
+  color: rgb(176, 176, 176);
+  font-size: small;
+  left: 145px;
+  width: 580px;
+  top: 17px;
 }
