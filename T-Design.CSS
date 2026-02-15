@@ -243,10 +243,11 @@ border-radius: 15px;
   height: 99.2%;
   width: 75px;
   left: 15px;
+  background-color: rgb(0, 0, 0);
   
 }
 
-.meme{
+.baddie{
   position: relative;
   height: 45px;
   width: 50px;
@@ -271,4 +272,16 @@ border-radius: 15px;
   left: 145px;
   width: auto;
   top: 17px;
+}
+
+.meme {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 400px;
+  border-radius: 10px;
+  left: 130px;
+  top: 60px;
 }
