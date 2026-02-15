@@ -234,3 +234,11 @@ border-radius: 15px;
   height: 71%;
   width: 44.7%;
 }
+
+.Profbox2{
+  position: absolute;
+  height: 99.2%;
+  width: 75px;
+  left: 15px;
+  background-color: white;
+}
