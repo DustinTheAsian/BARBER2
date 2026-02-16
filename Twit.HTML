@@ -1,26 +1,42 @@
-<script>
-  const submitBtn = document.querySelector(".Submit");
-  const input = document.querySelector(".Thoughts");
-  const postContainer = document.querySelector(".Post");
+  <!-- EXTRA POSTS -->
+  <div class="Post">
+    <div class="Profbox2">
+      <img src="xgKrELEH_400x400.jpg" class="baddie">
+      <div class="Username">Alex</div>
+    </div>
+    <img src="https://picsum.photos/400/500?1" class="meme">
+    <span class="emaill">@alexdev · 5h</span>
+  </div>
 
-  submitBtn.addEventListener("click", () => {
-    if (input.value.trim() === "") return;
+  <div class="Post">
+    <div class="Profbox2">
+      <img src="lvJxU_a2_400x400.jpg" class="baddie">
+      <div class="Username">Mika</div>
+    </div>
+    <img src="https://picsum.photos/400/500?2" class="meme">
+    <span class="emaill">@mika.art · 8h</span>
+  </div>
 
-    const newPost = document.createElement("div");
-    newPost.classList.add("Post");
+  <div class="Post">
+    <div class="Profbox2">
+      <img src="xgKrELEH_400x400.jpg" class="baddie">
+      <div class="Username">John</div>
+    </div>
+    <img src="https://picsum.photos/400/500?3" class="meme">
+    <span class="emaill">@johnny · 1d</span>
+  </div>
 
-    newPost.innerHTML = `
-      <div class="Profbox2">
-        <img src="lvJxU_a2_400x400.jpg" class="baddie">
-        <div class="Username">Diego</div>
-      </div>
-      <span class="emaill">@Diegoatmaster · just now</span>
-      <p style="color:white; position:absolute; top:60px; left:130px;">
-        ${input.value}
-      </p>
-    `;
+  <!-- RIGHT SIDEBAR -->
+  <div class="RightBar">
+    <h3>Trending</h3>
+    <p>#WebDesign</p>
+    <p>#HTML</p>
+    <p>#CSS</p>
+    <p>#JavaScript</p>
+    <p>#Frontend</p>
 
-    postContainer.after(newPost);
-    input.value = "";
-  });
-</script>
+    <h3>Who to follow</h3>
+    <p>@frontendguru</p>
+    <p>@designhub</p>
+    <p>@codeworld</p>
+  </div>
