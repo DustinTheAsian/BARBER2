@@ -301,11 +301,19 @@ border-radius: 15px;
   color: white;
 }
 
-/* Common style for each box */
-.Newsbox,
-.Trends,
-.Sports {
+.news {
   display: flex;
+  flex-direction: column;   /* STACK AS ROWS */
+  gap: 10px;
+  padding: 12px;
+  background-color: black;
+  width: 250px;
+  border-left: solid rgb(83, 83, 83) 1px;
+}
+
+/* EACH ROW */
+.Newsbox {
+  display: flex;            /* ICON + TEXT IN A ROW */
   align-items: center;
   gap: 12px;
   padding: 12px;
@@ -315,25 +323,19 @@ border-radius: 15px;
   background-color: #000;
 }
 
-/* Hover effect */
-.Newsbox:hover,
-.Trends:hover,
-.Sports:hover {
+/* HOVER EFFECT */
+.Newsbox:hover {
   background-color: rgb(60, 60, 60);
 }
 
-/* Icon images */
-.Newsbox img,
-.Trends img,
-.Sports img {
+/* ICON */
+.Newsbox img {
   width: 22px;
   height: 22px;
 }
 
-/* Text labels */
-.Newsfeed,
-.Trendsfeed,
-.Sportsfeed {
+/* TEXT */
+.Newsfeed {
   font-family: Arial, sans-serif;
   font-size: 16px;
   color: white;
